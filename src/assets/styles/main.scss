@@ -1,0 +1,65 @@
+/**
+ * Use this file to import partials.
+ * Do not include SCSS code in this file.
+ */
+
+/**
+ * Import variables
+ */
+
+@import "variables";
+
+/**
+ * Import npm dependencies
+ * see: https://v2.parceljs.org/features/module-resolution/
+ * see commented examples below
+ */
+
+// @import "some-node-module";
+// @import "@some-company/some-node-module";
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+
+/**
+ * Import layouts
+ * It's a best practice to use a different partial for each page
+ */
+
+@import "body";
+@import "layouts/header";
+@import "layouts/content";
+@import "layouts/footer";
+
+/**
+ * Do NOT include anything else in this file!
+ */
+
+main{
+  position: relative;
+  top: -120px;
+  .swiper{
+    height: 800px;
+    max-height: 90vh;
+    .swiper-wrapper{
+      width: 100%;
+      height: 100vh;
+      .swiper-slide{
+        width: 100%;
+        height: 100vh;
+        background-color: red;
+        background-size: cover;
+        background-position: center;
+        background-image: url("../images/home/banner/alhambra.jpg");
+      }
+    }
+
+    width: 100%;
+    min-width: 1200px;
+    display: block;
+    /*
+    background-image: url("../images/home/banner/alhambra.jpg");
+    background-size: cover;
+    background-position: center;
+*/
+
+  }
+}

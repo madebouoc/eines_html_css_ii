@@ -1,0 +1,20 @@
+{
+  "plugins": {
+    "posthtml-include": {
+      "root": "./src"
+    },
+    "posthtml-expressions": {
+      locals: {
+        "english": {
+          "helloworld": "Hello world!"
+        },
+        "catalan": {
+          "helloworld": "Hola món!"
+        },
+        "spanish": {
+          "helloworld": "Hola mundo!"
+        }
+      }
+    }
+  }
+}
