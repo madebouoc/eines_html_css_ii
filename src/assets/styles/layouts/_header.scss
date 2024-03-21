@@ -105,7 +105,7 @@ header{
     }
   }
 
-  #main-header:before{
+  #main-header:before, #main-header:after{
     transition: background 0.5s ease;
     content:"";
     position: absolute;
@@ -117,6 +117,6 @@ header{
     background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
   }
 
-  #main-header.is-pinned:before{
-    background-color: rgba(0,0,0,0.8) !important;
+  #main-header.is-pinned:before, #main-header.is-pinned:after{
+    background-color: rgba(0,0,0,0.5) !important;
   }

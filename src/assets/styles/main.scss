@@ -60,6 +60,61 @@ main{
     background-size: cover;
     background-position: center;
 */
-
   }
+
+  .container{
+    section{
+      padding: 20px 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      h2{
+        width: 100%;
+        border-left: 4px solid red;
+        padding: 20px 10px;
+        margin: 0 0 24px 0;
+        color: green;
+        font-size: 30px;
+      }
+      article{
+        width: 30%;
+        display: block;
+        img{
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #eventos, #historia{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  #eventos:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 200vw;
+    height: 100%;
+    background-color: #a3b79b;
+    z-index: -1;
+  }
+
+  #historia:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 200vw;
+    height: 100%;
+    background-color: #ffc9c9;
+    z-index: -1;
+  }
+
 }
