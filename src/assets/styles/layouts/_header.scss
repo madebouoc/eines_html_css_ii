@@ -2,7 +2,6 @@ header{
   a{
     color: $color1-fg;
     text-decoration: none;
-    border-bottom: 1px solid green;
   }
   a:hover{
     color: $color1-fg;
@@ -37,7 +36,7 @@ header{
         ul {
           list-style-type: none;
           height: 100%;
-          li {
+            li {
             float: left;
             display: flex;
             justify-content: center;
@@ -50,14 +49,13 @@ header{
             color: $color1-fg;
             margin-left: -1px; /* para que no se vea border doble */
 
+            span > a{
+              margin-left: 10px;
+            }
           }
         }
       }
     }
-  }
-
-  li{
-
   }
 
   #main-header {
