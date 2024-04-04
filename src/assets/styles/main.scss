@@ -1,117 +1,18 @@
-/**
- * Use this file to import partials.
- * Do not include SCSS code in this file.
- */
+/*
+  Punto de entrada ficheros SCSS del proyecto
+*/
 
-/**
- * Import variables
- */
-
+/* Variables de SCSS */
 @import "variables";
 
-/**
- * Import npm dependencies
- * see: https://v2.parceljs.org/features/module-resolution/
- * see commented examples below
- */
-
-// @import "some-node-module";
-// @import "@some-company/some-node-module";
-@import "npm:@fortawesome/fontawesome-free/css/all.css";
-
-/**
- * Import layouts
- * It's a best practice to use a different partial for each page
- */
-
-@import "body";
-@import "layouts/header";
-@import "layouts/content";
-@import "layouts/footer";
-
-/**
- * Do NOT include anything else in this file!
- */
-
-main{
-  .swiper{
-    margin-top: -120px;
-    height: 800px;
-    max-height: 90vh;
-    .swiper-wrapper{
-      width: 100%;
-      height: 100vh;
-      .swiper-slide{
-        width: 100%;
-        height: 100vh;
-        background-color: red;
-        background-size: cover;
-        background-position: center;
-        background-image: url("../images/home/banner/alhambra.jpg");
-      }
-    }
-
-    width: 100%;
-    min-width: 1200px;
-    display: block;
-    /*
-    background-image: url("../images/home/banner/alhambra.jpg");
-    background-size: cover;
-    background-position: center;
+/*
+   Distribución de atributos según esquema SMACSS
+   https://smacss.com/book/categorizing/
 */
-  }
-
-    section{
-      .container{
-      padding: 20px 0;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: flex-start;
-      h2{
-        width: 100%;
-        border-left: 4px solid red;
-        padding: 20px 10px;
-        margin: 0 0 24px 0;
-        color: green;
-        font-size: 30px;
-      }
-      article{
-        width: 30%;
-        display: block;
-        img{
-          height: 100%;
-          width: 100%;
-        }
-      }
-    }
-  }
-
-  #eventos, #historia{
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-
-  #eventos{
-    /* https://www.magicpattern.design/tools/css-backgrounds */
-    background-color: #ffffff;
-    opacity: 1;
-    background-image:  linear-gradient(135deg, #ffe6e6 25%, transparent 25%), linear-gradient(225deg, #ffe6e6 25%, transparent 25%), linear-gradient(45deg, #ffe6e6 25%, transparent 25%), linear-gradient(315deg, #ffe6e6 25%, #ffffff 25%);
-    background-position:  4px 0, 4px 0, 0 0, 0 0;
-    background-size: 8px 8px;
-    background-repeat: repeat;
-  }
-
-  #historia{
-    /* https://www.magicpattern.design/tools/css-backgrounds */
-    background-color: #ffffff;
-    opacity: 1;
-    background-image:  linear-gradient(135deg, #deffe0 25%, transparent 25%), linear-gradient(225deg, #deffe0 25%, transparent 25%), linear-gradient(45deg, #deffe0 25%, transparent 25%), linear-gradient(315deg, #deffe0 25%, #ffffff 25%);
-    background-position:  4px 0, 4px 0, 0 0, 0 0;
-    background-size: 8px 8px;
-    background-repeat: repeat;
-  }
-
-}
+@import "base";
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/main-home";
+@import "modules/article";
+@import "states/common-states";
+@import "themes/default-theme";

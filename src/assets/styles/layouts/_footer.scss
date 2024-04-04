@@ -1,8 +1,31 @@
+
+
+/*
+  MEDIA DESKTOP
+*/
+@media screen and (orientation: landscape) and (width >= 1281px) {
+  html{
+    margin: 0;
+  }
+}
+
+
+/*
+  MEDIA MOBILE
+*/
+@media (orientation: portrait) or (width > 1280px) {
+  html{
+    margin: 0;
+  }
+}
+
+
 footer{
-  min-width: 1200px;
-  width: 100%;
   position: relative;
   z-index: 1;
+  width: 100%;
+  min-width: 1200px;
+
   #contact {
     .container {
       display: flex;
@@ -10,56 +33,61 @@ footer{
       justify-content: space-between;
 
       .form {
-        min-width: 600px;
         width: 50%;
+        min-width: 600px;
       }
 
       nav {
-        float: right;
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        justify-content: space-between;
+        float: right;
         width: 50%;
+
         ul {
-          list-style-type: none;
           overflow: hidden;
+          list-style-type: none;
 
           li {
-            font-size: 24px;
             padding: 0 10px;
+            font-size: 24px;
             color: $color1-fg;
           }
         }
       }
     }
   }
+
   #copyright{
-    border-top: 1px solid $color1-fg;
     background-color: black;
+    border-top: 1px solid $color1-fg;
+
     .container{
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
         align-items: center;
+      justify-content: space-between;
+
       p{
-        color: $color1-fg;
-        font-size: 18px;
         padding: 12px 0;
+        font-size: 18px;
+        color: $color1-fg;
       }
     }
   }
 }
 
-footer:before{
-  z-index: -1;
-  content:"";
+footer::before{
   position: absolute;
   top: 0;
   bottom: 0;
-  min-width: 1200px;
+  z-index: -1;
   width: 100%;
+  min-width: 1200px;
   height: 100%;
-  /*https://www.rawpixel.com/image/843189/french-lilies-tile-pattern*/
+  content:"";
+
+  /* https://www.rawpixel.com/image/843189/french-lilies-tile-pattern */
   background-image: url("../images/bg-footer.webp");
   filter: grayscale(100%) brightness(0.2);
 }

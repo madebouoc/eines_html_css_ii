@@ -1,21 +1,33 @@
-header{
-  a{
-    color: $color1-fg;
-    text-decoration: none;
-  }
 
-  a:hover{
-    color: $color1-fg;
-    filter: brightness(200%);
+
+/*
+  MEDIA DESKTOP
+*/
+@media screen and (orientation: landscape) and (width >= 1281px) {
+  html{
+    margin: 0;
   }
 }
 
-  #pre-header {
+
+/*
+  MEDIA MOBILE
+*/
+@media (orientation: portrait) or (width > 1280px) {
+  html{
+    margin: 0;
+  }
+}
+
+
+
+
+  .pre-header {
     position: relative;
-    background-color: $color1-bg;
-    border-bottom: 1px solid $color1-fg;
     z-index: 1000;
     min-width: 1200px;
+    background-color: $color1-bg;
+    border-bottom: 1px solid $color1-fg;
 
     .container {
       display: flex;
@@ -31,27 +43,27 @@ header{
       }
 
       nav {
-        float: right;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        float: right;
 
         ul {
-          list-style-type: none;
           height: 100%;
+          list-style-type: none;
 
             li {
-            float: left;
             display: flex;
-            justify-content: center;
             align-items: center;
-            font-size: 16px;
-            padding: 0 20px;
+            justify-content: center;
+            float: left;
             height: 100%;
+            padding: 0 20px;
+            margin-left: -1px; /* para que no se vea border doble */
+            font-size: 16px;
+            color: $color1-fg;
             border: 1px solid $color1-fg;
             border-bottom: 0;
-            color: $color1-fg;
-            margin-left: -1px; /* para que no se vea border doble */
 
             span > a{
               margin-left: 10px;
@@ -62,12 +74,12 @@ header{
     }
   }
 
-  #main-header {
-    min-width: 1200px;
-    border-bottom: 1px solid $color1-fg;
+  .main-header {
     position: sticky;
     top: -1px;
     z-index: 2;
+    min-width: 1200px;
+    border-bottom: 1px solid $color1-fg;
 
     .container {
       display: flex;
@@ -89,23 +101,23 @@ header{
 
       nav {
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
 
         ul {
-          list-style-type: none;
-          overflow: hidden;
           height: 100%;
+          overflow: hidden;
+          list-style-type: none;
 
           li {
-            float: left;
             display: flex;
-            justify-content: center;
             align-items: center;
-            font-size: 20px;
-            padding: 0 20px;
-            color: $color1-fg;
+            justify-content: center;
+            float: left;
             height: 100%;
+            padding: 0 20px;
+            font-size: 20px;
+            color: $color1-fg;
           }
         }
       }
@@ -113,15 +125,15 @@ header{
   }
 
   #main-header::before, #main-header::after{
-    transition: background 0.5s ease;
-    content:"";
     position: absolute;
     top: 0;
     bottom: 0;
+    z-index: -1;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    content:"";
     background: linear-gradient(rgba(0 0 0 / 100%), rgba(0 0 0 / 0%));
+    transition: background 0.5s ease;
   }
 
   #main-header.is-pinned::before, #main-header.is-pinned::after{
