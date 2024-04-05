@@ -8,26 +8,11 @@
     <include src="views/layouts/header.html"></include>
 
     <!-- BODY CONTENT - HOME -->
-    <main class="main-content">
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                </div>
-                <div class="swiper-slide">
-                </div>
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+    <main class="main-home">
 
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
+        <!-- BANNER -->
+        <div class="main-home__banner">
+            <h1 class="main-home__banner__title">{{header.web_title}}</h1>
         </div>
 
         <div class="container">
@@ -36,37 +21,37 @@
             </each>
         </div>
 
-        <section class="section" id="lugares_de_interes">
-            <div class="container">
+        <section class="main-home__section" id="lugares_de_interes">
+            <div class="main-home__section__container container">
                 <!-- https://www.viajeroscallejeros.com/lugares-que-ver-en-granada/ -->
                 <!-- https://es.wikipedia.org/wiki/Anexo:Barrios_de_Granada -->
-                <h2>{{lugares_de_interes}}</h2>
+                <h2 class="main-home__section__section-title">{{lugares_de_interes}}</h2>
                 <each loop="item in lugares_list">
                     <include src="views/modules/home_article.html"></include>
                 </each>
             </div>
         </section>
 
-        <section class="section" id="eventos_y_festividades">
-            <div class="container">
-                <h2>{{eventos_y_festividades}}</h2>
+        <section class="main-home__section" id="eventos_y_festividades">
+            <div class="main-home__section__container container">
+                <h2 class="main-home__section__section-title">{{eventos_y_festividades}}</h2>
                 <each loop="item in eventos_list">
                     <include src="views/modules/home_article.html"></include>
                 </each>
             </div>
         </section>
 
-        <section class="section" id="gastronomia">
-            <div class="container">
-                <h2>{{gastronomia}}</h2>
+        <section class="main-home__section" id="gastronomia">
+            <div class="main-home__section__container container">
+                <h2 class="main-home__section__section-title">{{gastronomia}}</h2>
                 <each loop="item in gastronomia_list">
                     <include src="views/modules/home_article.html"></include>
                 </each>
             </div>
         </section>
-        <section  class="section" id="historia">
-            <div class="container">
-                <h2>{{historia}}</h2>
+        <section  class="main-home__section" id="historia">
+            <div class="main-home__section__container container">
+                <h2 class="main-home__section__section-title">{{historia}}</h2>
                 <each loop="item in historia_list">
                     <include src="views/modules/home_article.html"></include>
                 </each>
