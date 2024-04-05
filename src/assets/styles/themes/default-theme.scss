@@ -4,8 +4,8 @@
     text-decoration: none;
 
     &:hover{
-      color: $color1-fg;
-      filter: brightness(200%);
+      color: $color1-enfasis;
+      filter: brightness(100%);
     }
   }
 }
@@ -16,8 +16,8 @@
     text-decoration: none;
 
     &:hover {
-      color: $color1-fg;
-      filter: brightness(200%);
+      color: $color1-enfasis;
+      filter: brightness(100%);
     }
   }
 
@@ -36,3 +36,25 @@
 
 
 
+.footer {
+  &__link{
+    color: $color1-fg;
+    text-decoration: none;
+
+    &:hover{
+      color: $color1-enfasis;
+      filter: brightness(100%);
+    }
+  }
+}
+
+
+/* https://www.magicpattern.design/tools/css-backgrounds */
+#eventos-y-festividades, #historia{
+  background-color: #fff;
+  background-image:  linear-gradient(135deg, #deffe0 25%, transparent 25%), linear-gradient(225deg, #deffe0 25%, transparent 25%), linear-gradient(45deg, #deffe0 25%, transparent 25%), linear-gradient(315deg, #deffe0 25%, #fff 25%);
+  background-repeat: repeat;
+  background-position:  4px 0, 4px 0, 0 0, 0 0;
+  background-size: 8px 8px;
+  opacity: 1;
+}

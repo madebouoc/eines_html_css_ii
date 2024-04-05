@@ -1,6 +1,10 @@
 <article class="main-home__article">
         <h3 class="main-home__article__title">{{item.title}}</h3>
         <!-- {{item.source_url}} -->
+    <figure>
         <img class="main-home__article__image" src="{{item.image_src}}" alt="{{item.image_alt}}" />
+        <figcaption>{{{item.author}}}</figcaption>
+    </figure>
+
         <p class="text">{{{item.text}}}</p> <!-- triple llave para no escapes -->
 </article>

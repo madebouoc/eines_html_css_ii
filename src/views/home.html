@@ -17,11 +17,11 @@
 
         <div class="container">
             <each loop="item in intro_list">
-                <p>{{item.text}}</p>
+                <p class="main-home__intro-text">{{item.text}}</p>
             </each>
         </div>
 
-        <section class="main-home__section" id="lugares_de_interes">
+        <section class="main-home__section" id="lugares-de-interes">
             <div class="main-home__section__container container">
                 <!-- https://www.viajeroscallejeros.com/lugares-que-ver-en-granada/ -->
                 <!-- https://es.wikipedia.org/wiki/Anexo:Barrios_de_Granada -->
@@ -32,7 +32,7 @@
             </div>
         </section>
 
-        <section class="main-home__section" id="eventos_y_festividades">
+        <section class="main-home__section" id="eventos-y-festividades">
             <div class="main-home__section__container container">
                 <h2 class="main-home__section__section-title">{{eventos_y_festividades}}</h2>
                 <each loop="item in eventos_list">

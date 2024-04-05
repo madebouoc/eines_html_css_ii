@@ -1,5 +1,137 @@
 {
   "catalan": {
-    "helloworld": "Hola món!"
+    "lang_html_code": "ca",
+    "header": {
+      "web_title": "Ciutat de Granada",
+      "web_subtitle": "Informació turística sobre Granada. Lloc web no-oficial."
+    },
+    "intro_list": [
+      {
+        "text": "Descobreix Granada, la joia d'Andalusia, on el passat es troba amb el present en una abraçada eterna. En el cor d'aquesta ciutat mil·lenària, l'Alhambra s'erigeix majestuosament, un palau de somni on cada paret conta històries de reis i conquestes. Però Granada és més que la seva imponent fortalesa; és un crisol de cultures on els banys àrabs t'inviten a submergir-te en el relax més profund, una experiència rejovenidora que connecta cos i ment amb segles d'història."
+      },
+      {
+        "text": "No hi ha espectacle més commovedor que les processons de Setmana Santa, un testimoni viu de la fe i tradició que palpita en cada racó. I per al viatger en cerca de sabors autèntics, l'Olla de San Antón ofereix un festí per als sentits, un plat tradicional que encapsula l'ànima de Granada en cada mos."
+      },
+      {
+        "text": "Vine a Granada, on cada pas és un descobriment, cada vista un poema, i cada moment un record imborrable."
+      }
+    ],
+    "lugares_de_interes": "Llocs d'interès",
+    "lugares_list": [
+      {
+        "title": "L'Alhambra",
+        "source_url": "https://www.google.com/search?q=La%20Alhambra&tbm=isch&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&hl=ca&sa=X&ved=0CAAQ1vwEahcKEwiA3e70k4OFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=CM3FPGEHnjUzwM",
+        "image_src": "./assets/images/home/lugares/la_alhambra.jpg",
+        "image_alt": "Imatge de L'Alhambra",
+        "text": "Descobreix l'<strong>Alhambra</strong>, joia de Granada, on palaus, jardins i fortaleses es fusionen en un testimoni de l'esplendor musulmà. Aquest lloc icònic, amb els seus detallats mosaics i patis que evoquen somnis d'antigues dinasties, no només captura la imaginació; encisa l'ànima. Visitar l'<strong>Alhambra</strong> és endinsar-se en un conte de fades, on cada racó narra històries d'amor, intriga i poder."
+      },
+      {
+        "title": "Passeig dels Tristos / Carrera del Darro",
+        "source_url": "https://www.google.com/search?q=Paseo%20de%20los%20Tristes&tbm=isch&hl=ca&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&sa=X&ved=0CAAQ1vwEahcKEwjwtLeQlIOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=jFFgcJKOK3dU2M",
+        "image_src": "./assets/images/home/lugares/paseo_de_los_tristes.jpg",
+        "image_alt": "Imatge del Passeig dels Tristos",
+        "text": "El <strong>Passeig dels Tristos</strong> i la <strong>Carrera del Darro</strong>, amb el seu encant atemporal, t'envolten en la màgia de Granada. Aquest camí, flanquejat pel riu Darro i la vista de l'Alhambra, està salpicat d'història viva i bellesa arquitectònica. Un lloc on cada pas et porta a través de segles d'històries i llegendes, perfecte per a un passeig inoblidable a la posta de sol."
+      },
+      {
+        "title": "Mirador de Sant Nicolau",
+        "source_url": "https://www.google.com/search?q=Mirador%20de%20San%20Nicol%C3%A1s&tbm=isch&hl=ca&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&sa=X&ved=0CAAQ1vwEahcKEwjYjKTvlIOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=YKHcec_eg5fxkM",
+        "image_src": "./assets/images/home/lugares/mirador_de_san_nicolas.jpg",
+        "image_alt": "Imatge del Mirador de Sant Nicolau",
+        "text": "El <strong>Mirador de Sant Nicolau</strong> ofereix la vista més espectacular de l'Alhambra, amb la Serra Nevada com a teló de fons. Aquí, el capvespre banya la ciutat en or, mentre les melodies dels músics locals floten en l'aire, capturant l'essència de Granada en un sol instant. Un lloc on la història i la bellesa s'entrellacen, convidant a somiar."
+      },
+      {
+        "title": "Banys àrabs (Hammam Al Ándalus)",
+        "source_url": "https://www.google.com/search?q=Hammam%20Al%20%C3%81ndalus&tbm=isch&hl=ca&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&sa=X&ved=0CAAQ1vwEahcKEwigvrGolYOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=39uWRpnIa3-6KM",
+        "image_src": "./assets/images/home/lugares/banyos_arabes.jpg",
+        "image_alt": "Imatge d'uns Banys àrabs",
+        "text": "Als <strong>Banys Àrabs Hammam Al Ándalus</strong> de Granada, redescobreix l'art mil·lenari del descans. Entre murs que ressonen amb ecos del passat, l'aigua flueix com a font de rejoveniment. Aquest santuari, inspirat en la tradició morisca, t'invita a submergir-te en un viatge sensorial, on el temps s'atura i el benestar comença."
+      },
+      {
+        "title": "Catedral de Granada",
+        "source_url": "https://www.google.com/search?q=Catedral%20de%20Granada&tbm=isch&tbs=il:cl&hl=ca&sa=X&ved=0CAAQ1vwEahcKEwjgz6falYOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=-vNrm0YedVmjLM",
+        "image_src": "./assets/images/home/lugares/catedral_de_granada.jpg",
+        "image_alt": "Imatge de la Catedral de Granada",
+        "text": "La <strong>Catedral de Granada</strong>, imponent testimoni de la història, s'erigeix amb majestuositat en el cor de la ciutat. Aquest magnífic exemple d'arquitectura renaixentista convida a explorar el seu interior, on art i espiritualitat s'uneixen sota voltes que semblen tocar el cel. Visitar la <strong>Catedral</strong> és endinsar-se en un refugi de pau i bellesa, un lloc on cada detall narra segles de devoció i art."
+      },
+      {
+        "title": "Alcaicería",
+        "source_url": "https://www.google.com/search?q=Alcaicer%C3%ADa&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwjoso2GloOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=S0yvUQupVXy7yM",
+        "image_src": "./assets/images/home/lugares/alcaiceria.jpg",
+        "image_alt": "Imatge de l'Alcaicería",
+        "text": "L'<strong>Alcaicería</strong>, antic mercat de seda de Granada, et transporta a un laberint de carrerons vibrants, rebosants de teixits colorits, artesanies i espècies exòtiques. Aquest bazar tradicional, amb la seva atmosfera reminiscent d'un passat comercial florent, ofereix una experiència única on els sentits s'aguditzen. Passejar per l'<strong>Alcaicería</strong> és submergir-se en l'essència de Granada, un encontre amb la història i la cultura en cada cantonada."
+      }
+    ],
+    "eventos_y_festividades": "Esdeveniments i festivitats",
+    "eventos_list": [
+      {
+        "title": "Setmana Santa a Granada",
+        "source_url": "https://www.google.com/search?q=procesiones+en+Granada&tbm=isch&ved=2ahUKEwiA5peg7YOFAxU-lScCHSDZD0gQ2-cCegQIABAA&oq=procesiones+en+Granada&gs_lp=EgNpbWciFnByb2Nlc2lvbmVzIGVuIEdyYW5hZGEyBxAAGIAEGBgyBxAAGIAEGBgyBxAAGIAEGBhI8kJQgzdY6z9wAHgAkAEAmAFvoAHPCaoBAzMuObgBA8gBAPgBAYoCC2d3cy13aXotaW1nwgIHEAAYgAQYE8ICBhAAGAcYHsICCBAAGAUYBxgewgIIEAAYCBgHGB6IBgE&sclient=img&ei=Ul77ZYD1PL6qnsEPoLK_wAQ&bih=911&biw=1903&hl=ca#imgrc=Ldqjw86lI8JifM",
+        "image_src": "./assets/images/home/eventos/procesiones_semana_santa.jpg",
+        "image_alt": "Imatge de la Setmana Santa a Granada",
+        "text": "La <strong>Setmana Santa a Granada</strong> transforma la ciutat en un escenari de devoció i art. Els carrers s'omplen de majestuoses processons que, al ritme de tambors i saetes, narren la passió i resurrecció. Aquest esdeveniment, profundament arrelat en la tradició granadina, ofereix una experiència espiritual i cultural incomparable. Viure la <strong>Setmana Santa</strong> aquí és ser testimoni d'una barreja única de fe, art i cultura, un espectacle que deixa empremta en l'ànima."
+      },
+      {
+        "title": "Festival Internacional de Música de Granada",
+        "source_url": "https://www.google.com/search?q=Festival%20de%20M%C3%BAsica%20granada&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwiowduK74OFAxUAAAAAHQAAAAAQAg&biw=1903&bih=894#imgrc=usdFCklbiYw-GM",
+        "image_src": "./assets/images/home/eventos/festival_int_de_music_danza.jpg",
+        "image_alt": "Imatge del Festival Internacional de Música de Granada",
+        "text": "El <strong>Festival Internacional de Música i Dansa de Granada</strong> és una celebració d'art que ressona en els racons històrics de la ciutat. Aquest esdeveniment atrau artistes de talla mundial, oferint una rica programació que va des de la música clàssica fins al flamenc. Participar en el festival és viure la cultura granadina en la seva màxima expressió, una experiència inoblidable de connexió artística en l'escenari màgic de Granada."
+      },
+      {
+        "title": "Fira del Corpus Christi",
+        "source_url": "https://www.google.com/search?q=Feria%20del%20Corpus%20Christi&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahgKEwjw9aqB8IOFAxUAAAAAHQAAAAAQ5wE&biw=1903&bih=911#imgrc=JfJe6qpi7p0-5M",
+        "image_src": "./assets/images/home/eventos/feria_corpus_christi.jpg",
+        "image_alt": "Imatge de la Fira del Corpus Christi",
+        "text": "La <strong>Fira del Corpus Christi</strong> és la festa major de Granada, un desplegament d'alegria, color i tradició. Durant una setmana, la ciutat s'engalana amb llums i flors per celebrar amb processons, casetes, i balls. És un moment de trobada, on la devoció s'uneix a la festa popular, oferint a propis i visitants una experiència única de la cultura granadina."
+      }
+    ],
+    "gastronomia": "Gastronomia",
+    "gastronomia_list": [
+      {
+        "title": "Tapes",
+        "source_url": "https://www.google.com/search?q=tapas%20en%20Granada&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwjw7tfO8oOFAxUAAAAAHQAAAAAQBw&biw=1903&bih=911#imgrc=27dDlLEuLYEFjM",
+        "image_src": "./assets/images/home/gastronomia/Granada%2C_La_Fontana%2C_tapas.jpg",
+        "image_alt": "Imatge d'unes tapes",
+        "text": "Explorar Granada també és un viatge gastronòmic a través de les seves <strong>tapes</strong>, petites delícies que conten històries de tradició i sabor. Cada bar i restaurant ofereix la seva pròpia versió, des del clàssic pernil serrà fins a innovacions culinàries. Gaudir de les <strong>tapes</strong> a Granada no és només assaborir la cuina local, és viure una tradició que converteix cada àpat en una celebració de la vida i l'amistat."
+      },
+      {
+        "title": "Olla de Sant Antoni",
+        "source_url": "https://www.google.com/search?q=Olla%20de%20San%20Ant%C3%B3n&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwjowpKr84OFAxUAAAAAHQAAAAAQAg&biw=1903&bih=894#imgrc=VYX7lHktwyAVHM",
+        "image_src": "./assets/images/home/gastronomia/368843657_9607447f24_b.jpg",
+        "image_alt": "Imatge d'un plat d'Olla de Sant Antoni",
+        "text": "L'<strong>Olla de Sant Antoni</strong> és un plat emblemàtic de Granada, un estofat ric i reconfortant que es saboreja especialment a l'hivern. Aquest guisat tradicional, fet amb faves seques, arròs, botifarra, xoriço i altres ingredients, és una celebració de sabors i textures. Gaudir de l'<strong>Olla de Sant Antoni</strong> és submergir-se en el cor de la gastronomia granadina, una experiència culinària que uneix a locals i visitants entorn a la calor de la cuina casolana."
+      },
+      {
+        "title": "Plat Alpujarrenc",
+        "source_url": "https://www.google.com/search?q=Plato%20Alpujarre%C3%B1o&tbm=isch&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&hl=ca&sa=X&ved=0CAAQ1vwEahcKEwjI6qGp9IOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=Gy0lnnSKEZZarM",
+        "image_src": "./assets/images/home/gastronomia/14857675313_95d310e70d_b.jpg",
+        "image_alt": "Imatge d'un Plat Alpujarrenc",
+        "text": "El <strong>Plat Alpujarrenc</strong>, típic de la regió muntanyenca de les Alpujarras, és una mostra contundent de la gastronomia granadina. Aquest plat combina sabors rústics com patates a lo pobre, xoriço, botifarra, pernil serrà, i ou fregit. Menjar un <strong>Plat Alpujarrenc</strong> és gaudir d'una experiència gastronòmica que satisfà el paladar i reconforta l'ànima, reflectint la rica herència culinària de Granada."
+      }
+    ],
+    "historia": "Història",
+    "historia_list": [
+      {
+        "title": "Granada Musulmana (711-1492)",
+        "source_url": null,
+        "image_src": "./assets/images/home/historia/historia1.webp",
+        "image_alt": "Imatge artística de Granada Musulmana",
+        "text": "L'era <strong>musulmana de Granada</strong> (711-1492) va deixar una empremta indeleble en la ciutat, transformant-la en un crisol de cultures. Aquest període es caracteritza per un floreixement artístic i científic, evident en joies arquitectòniques com l'Alhambra. Explorar Granada és submergir-se en aquest ric llegat, on cada carrer i edifici conta històries de convivència, innovació i esplendor. La <strong>Granada musulmana</strong> no és només un capítol de la història, és l'ànima de la ciutat, palpitant i viva."
+      },
+      {
+        "title": "Granada Renaixentista i Barroca (S.XVI-XVIII)",
+        "source_url": null,
+        "image_src": "./assets/images/home/historia/historia2.webp",
+        "image_alt": "Imatge artística de Granada Renaixentista i Barroca",
+        "text": "La <strong>Granada Renaixentista i Barroca</strong> (segles XVI-XVIII) va marcar una era de transformació arquitectònica i cultural, on la ciutat es va embellir amb imponents edificis i art sacre. Destaquen obres com la Catedral de Granada, emblema del Renaixement espanyol, i el Monestir de Sant Jeroni. Aquest període reflecteix un ric diàleg entre passat i present, on la influència musulmana s'entrellaça amb noves corrents europees. Descobrir Granada d'aquesta època és admirar el seu esplendor artístic i la seva capacitat de fusió cultural."
+      },
+      {
+        "title": "Granada Contemporània (S.XIX-XXI)",
+        "source_url": "https://www.google.com/search?q=Plato%20Alpujarre%C3%B1o&tbm=isch&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&hl=ca&sa=X&ved=0CAAQ1vwEahcKEwjI6qGp9IOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=Gy0lnnSKEZZarM",
+        "image_src": "./assets/images/home/historia/historia3.webp",
+        "image_alt": "Imatge artística de Granada Contemporània",
+        "text": "La <strong>Granada Contemporània</strong> (segles XIX-XXI) és un testimoni d'adaptació i modernitat, mantenint la seva essència històrica mentre abraça el progrés. Aquest període destaca per importants desenvolupaments urbanístics i culturals, reflectits en la renovació del barri del Realejo, el creixement de la Universitat de Granada, i l'emergència de moviments artístics moderns. La Granada d'avui és un vibrant mosaic de tradició i modernitat, un lloc on el passat i el futur es troben a cada cantonada, oferint una experiència única de riquesa històrica i dinamisme contemporani."
+      }
+    ]
   }
 }

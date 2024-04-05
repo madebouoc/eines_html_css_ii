@@ -26,13 +26,33 @@ p, li, ul {
 
 }
 
-.container {
-  display: block;
-  width: 1280px;
-  min-width: 1160px;
-  max-width: 100%;
-  padding: 0 20px;
-  margin: 0 auto;
+/*
+  MEDIA DESKTOP
+*/
+@media screen and (orientation: landscape) and (width >= 1281px) {
+  .container {
+    display: block;
+    width: 1280px;
+    min-width: 1160px;
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
+
+/*
+  MEDIA MOBILE
+*/
+@media (orientation: portrait) or (width < 1280px) {
+  .container {
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .desktop{
+    display: none;
+  }
 }
 
 .left{
@@ -43,7 +63,7 @@ p, li, ul {
   float: right;
 }
 
-.fas, .fa-regular, .fa-solid{
+.fas, .fa-regular, .fa-solid, .fab, .fa-brands{
   padding-right: 10px;
 }
 

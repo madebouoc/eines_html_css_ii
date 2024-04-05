@@ -32,7 +32,7 @@ const swiper = new Swiper('.swiper', {
   );
 
 /* https://godofredo.ninja/como-detectar-un-elemento-sticky-cuando-se-queda-fijo/ */
-const stickyElement = document.querySelector('#main-header');
+const stickyElement = document.querySelector('.main-header');
 // Opciones para el IntersectionObserver
 const observer = new IntersectionObserver(
   ([e]) => e.target.classList.toggle("is-pinned", e.intersectionRatio < 1),

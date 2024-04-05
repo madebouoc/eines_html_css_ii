@@ -53,7 +53,6 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
-    "bem-join": "^2.0.2",
     "swiper": "^11.0.7"
   }
 }

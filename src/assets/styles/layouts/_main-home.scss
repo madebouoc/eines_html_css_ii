@@ -5,22 +5,29 @@
 */
 @media screen and (orientation: landscape) and (width >= 1281px) {
   .main-home{
+    &__banner{
+      width: 100%;
+      min-width: 1200px;
+      height: 80vh;
+      margin-top: -120px;
+      background-color: red;
+      background-image: url("../images/home/banner/alhambra.jpg");
+      background-position: center;
+      background-size: cover;
 
-      &__banner{
-        margin-top: -120px;
-        width: 100%;
-        min-width: 1200px;
-        height: 80vh;
-        background-color: red;
-        background-image: url("../images/home/banner/alhambra.jpg");
-        background-position: center;
-        background-size: cover;
-        &__title{
-          padding-top: 200px;
-          color: white;
-          display: none; /*lo ocultamos de mommento*/
-        }
+      &__title{
+        display: none; /* lo ocultamos de mommento */
+        padding-top: 200px;
+        color: white;
       }
+    }
+
+    &__intro-text{
+      margin: 12px 0;
+      font-size: 1.3em;
+      line-height: 150%;
+      text-align: justify;
+    }
 
     &__section{
       &__container{
@@ -28,7 +35,7 @@
         flex-flow:  row wrap;
         align-items: flex-start;
         justify-content: space-between;
-        padding: 20px 0 0 0;
+        padding: 20px 0 0;
       }
 
       &__section-title{
@@ -41,20 +48,10 @@
       }
     }
 
-    #eventos_y_festividades, #historia{
+    #eventos-y-festividades, #historia{
       position: relative;
       top: 0;
       left: 0;
-    }
-
-    /* https://www.magicpattern.design/tools/css-backgrounds */
-    #eventos_y_festividades, #historia{
-      background-color: #fff;
-      background-image:  linear-gradient(135deg, #deffe0 25%, transparent 25%), linear-gradient(225deg, #deffe0 25%, transparent 25%), linear-gradient(45deg, #deffe0 25%, transparent 25%), linear-gradient(315deg, #deffe0 25%, #fff 25%);
-      background-repeat: repeat;
-      background-position:  4px 0, 4px 0, 0 0, 0 0;
-      background-size: 8px 8px;
-      opacity: 1;
     }
 
   }
@@ -65,9 +62,57 @@
 /*
   MEDIA MOBILE
 */
-@media (orientation: portrait) or (width > 1280px) {
-  html{
-    margin: 0;
+@media (orientation: portrait) or (width < 1280px) {
+  .main-home{
+    &__banner{
+      width: 100%;
+      height: 50vh;
+      margin-top: -120px;
+      background-color: red;
+      background-image: url("../images/home/banner/alhambra.jpg");
+      background-position: center;
+      background-size: cover;
+
+      &__title{
+        display: none; /* lo ocultamos de mommento */
+        padding-top: 200px;
+        color: white;
+      }
+    }
+
+    &__intro-text{
+      margin: 12px 0;
+      font-size: 1.3em;
+      line-height: 150%;
+      text-align: justify;
+    }
+
+    &__section{
+      &__container{
+        display: flex;
+        flex-flow:  row wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 10px 0 0;
+      }
+
+      &__section-title{
+        width: 100%;
+        padding: 20px 10px;
+        margin: 0 0 24px;
+        font-size: 30px;
+        color: green;
+        border-left: 4px solid red;
+      }
+    }
+
+    #eventos-y-festividades, #historia{
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+
   }
+
 }
 

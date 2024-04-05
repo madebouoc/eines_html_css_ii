@@ -15,6 +15,7 @@
       {
         "title": "La Alhambra",
         "source_url": "https://www.google.com/search?q=La%20Alhambra&tbm=isch&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&hl=ca&sa=X&ved=0CAAQ1vwEahcKEwiA3e70k4OFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=CM3FPGEHnjUzwM",
+        "author": "AdriPozuelo - Wikimedia Commons",
         "image_src": "./assets/images/home/lugares/la_alhambra.jpg",
         "image_alt": "Imagen de La Alhambra",
         "text": "Descubre la <strong>Alhambra</strong>, joya de Granada, donde palacios, jardines y fortalezas se fusionan en un testimonio del esplendor musulmán. Este icónico sitio, con sus detallados mosaicos y patios que evocan sueños de antiguas dinastías, no solo captura la imaginación; hechiza el alma. Visitar la <strong>Alhambra</strong> es adentrarse en un cuento de hadas, donde cada rincón narra historias de amor, intriga y poder."
@@ -22,6 +23,7 @@
       {
         "title": "Paseo de los Tristes / Carrera del Darro",
         "source_url": "https://www.google.com/search?q=Paseo%20de%20los%20Tristes&tbm=isch&hl=ca&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&sa=X&ved=0CAAQ1vwEahcKEwjwtLeQlIOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=jFFgcJKOK3dU2M",
+        "author": "JuanMercader - Flickr",
         "image_src": "./assets/images/home/lugares/paseo_de_los_tristes.jpg",
         "image_alt": "Imagen del Paseo de los Tristes",
         "text": "El <strong>Paseo de los Tristes</strong> y la <strong>Carrera del Darro</strong>, con su encanto sin tiempo, te envuelven en la magia de Granada. Este camino, flanqueado por el río Darro y la vista de la Alhambra, está salpicado de historia viva y belleza arquitectónica. Un lugar donde cada paso te lleva a través de siglos de historias y leyendas, perfecto para un paseo inolvidable al atardecer."
@@ -29,6 +31,7 @@
       {
         "title": "Mirador de San Nicolás",
         "source_url": "https://www.google.com/search?q=Mirador%20de%20San%20Nicol%C3%A1s&tbm=isch&hl=ca&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&sa=X&ved=0CAAQ1vwEahcKEwjYjKTvlIOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=YKHcec_eg5fxkM",
+        "author": "Rafael cros - Wikimedia Commons",
         "image_src": "./assets/images/home/lugares/mirador_de_san_nicolas.jpg",
         "image_alt": "Imagen del Mirador de San Nicolás",
         "text": "El <strong>Mirador de San Nicolás</strong> ofrece la vista más espectacular de la Alhambra, con la Sierra Nevada como telón de fondo. Aquí, el atardecer baña la ciudad en oro, mientras las melodías de los músicos locales flotan en el aire, capturando la esencia de Granada en un solo instante. Un lugar donde la historia y la belleza se entrelazan, invitando a soñar."
@@ -36,6 +39,7 @@
       {
         "title": "Baños árabes (Hammam Al Ándalus)",
         "source_url": "https://www.google.com/search?q=Hammam%20Al%20%C3%81ndalus&tbm=isch&hl=ca&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&sa=X&ved=0CAAQ1vwEahcKEwigvrGolYOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=39uWRpnIa3-6KM",
+        "author": "Diego Delso",
         "image_src": "./assets/images/home/lugares/banyos_arabes.jpg",
         "image_alt": "Imagen de unos Baños árabes",
         "text": "En los <strong>Baños Árabes Hammam Al Ándalus</strong> de Granada, redescubre el arte milenario del descanso. Entre muros que resuenan con ecos del pasado, el agua fluye como fuente de rejuvenecimiento. Este santuario, inspirado en la tradición morisca, te invita a sumergirte en un viaje sensorial, donde el tiempo se detiene y el bienestar comienza."
@@ -43,6 +47,7 @@
       {
         "title": "Catedral de Granada",
         "source_url": "https://www.google.com/search?q=Catedral%20de%20Granada&tbm=isch&tbs=il:cl&hl=ca&sa=X&ved=0CAAQ1vwEahcKEwjgz6falYOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=-vNrm0YedVmjLM",
+        "author": "Jl FilpoC - Wikimedia Commons",
         "image_src": "./assets/images/home/lugares/catedral_de_granada.jpg",
         "image_alt": "Imagen de la Catedral de Granada",
         "text": "La <strong>Catedral de Granada</strong>, imponente testigo de la historia, se erige con majestuosidad en el corazón de la ciudad. Este magnífico ejemplo de arquitectura renacentista invita a explorar su interior, donde arte y espiritualidad se unen bajo bóvedas que parecen tocar el cielo. Visitar la <strong>Catedral</strong> es adentrarse en un refugio de paz y belleza, un lugar donde cada detalle narra siglos de devoción y arte."
@@ -50,6 +55,7 @@
       {
         "title": "Alcaicería",
         "source_url": "https://www.google.com/search?q=Alcaicer%C3%ADa&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwjoso2GloOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=S0yvUQupVXy7yM",
+        "author": "Kolforn - Wikimedia Commons",
         "image_src": "./assets/images/home/lugares/alcaiceria.jpg",
         "image_alt": "Imagen de la Alcaicería",
         "text": "La <strong>Alcaicería</strong>, antiguo mercado de seda de Granada, te transporta a un laberinto de callejuelas vibrantes, rebosantes de coloridos tejidos, artesanías y especias exóticas. Este bazar tradicional, con su atmósfera reminiscente de un pasado comercial floreciente, ofrece una experiencia única donde los sentidos se agudizan. Pasear por la <strong>Alcaicería</strong> es sumergirse en la esencia de Granada, un encuentro con la historia y la cultura en cada esquina."
@@ -60,6 +66,7 @@
       {
         "title": "Semana Santa en Granada",
         "source_url": "https://www.google.com/search?q=procesiones+en+Granada&tbm=isch&ved=2ahUKEwiA5peg7YOFAxU-lScCHSDZD0gQ2-cCegQIABAA&oq=procesiones+en+Granada&gs_lp=EgNpbWciFnByb2Nlc2lvbmVzIGVuIEdyYW5hZGEyBxAAGIAEGBgyBxAAGIAEGBgyBxAAGIAEGBhI8kJQgzdY6z9wAHgAkAEAmAFvoAHPCaoBAzMuObgBA8gBAPgBAYoCC2d3cy13aXotaW1nwgIHEAAYgAQYE8ICBhAAGAcYHsICCBAAGAUYBxgewgIIEAAYCBgHGB6IBgE&sclient=img&ei=Ul77ZYD1PL6qnsEPoLK_wAQ&bih=911&biw=1903&hl=ca#imgrc=Ldqjw86lI8JifM",
+        "author": "Michal Osmenda - Flickr",
         "image_src": "./assets/images/home/eventos/procesiones_semana_santa.jpg",
         "image_alt": "Imagen de la Semana Santa en Granada",
         "text": "La <strong>Semana Santa en Granada</strong> transforma la ciudad en un escenario de devoción y arte. Las calles se llenan de majestuosas procesiones que, al ritmo de tambores y saetas, narran la pasión y resurrección. Este evento, profundamente arraigado en la tradición granadina, ofrece una experiencia espiritual y cultural incomparable. Vivir la <strong>Semana Santa</strong> aquí es ser testigo de una mezcla única de fe, arte y cultura, un espectáculo que deja huella en el alma."
@@ -67,6 +74,7 @@
       {
         "title": "Festival Internac. de Música de Granada",
         "source_url": "https://www.google.com/search?q=Festival%20de%20M%C3%BAsica%20granada&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwiowduK74OFAxUAAAAAHQAAAAAQAg&biw=1903&bih=894#imgrc=usdFCklbiYw-GM",
+        "author": "Pepe Torres - Flickr",
         "image_src": "./assets/images/home/eventos/festival_int_de_music_danza.jpg",
         "image_alt": "Imagen del Festival Internac. de Música de Granada",
         "text": "El <strong>Festival Internacional de Música y Danza de Granada</strong> es una celebración de arte que resuena en los rincones históricos de la ciudad. Este evento atrae a artistas de talla mundial, ofreciendo una rica programación que va desde la música clásica hasta el flamenco. Participar en el festival es vivir la cultura granadina en su máxima expresión, una experiencia inolvidable de conexión artística en el escenario mágico de Granada."
@@ -74,6 +82,7 @@
       {
         "title": "Feria del Corpus Christi",
         "source_url": "https://www.google.com/search?q=Feria%20del%20Corpus%20Christi&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahgKEwjw9aqB8IOFAxUAAAAAHQAAAAAQ5wE&biw=1903&bih=911#imgrc=JfJe6qpi7p0-5M",
+        "author": "La Tarasca - Flickr",
         "image_src": "./assets/images/home/eventos/feria_corpus_christi.jpg",
         "image_alt": "Imagen de la Feria del Corpus Christi",
         "text": "La <strong>Feria del Corpus Christi</strong> es la fiesta mayor de Granada, un despliegue de alegría, color y tradición. Durante una semana, la ciudad se engalana con luces y flores para celebrar con procesiones, casetas, y bailes. Es un momento de encuentro, donde la devoción se une al festejo popular, ofreciendo a propios y visitantes una experiencia única de la cultura granadina."
@@ -84,6 +93,7 @@
       {
         "title": "Tapas",
         "source_url": "https://www.google.com/search?q=tapas%20en%20Granada&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwjw7tfO8oOFAxUAAAAAHQAAAAAQBw&biw=1903&bih=911#imgrc=27dDlLEuLYEFjM",
+        "author": "Palickap - Wikimedia Commons",
         "image_src": "./assets/images/home/gastronomia/Granada%2C_La_Fontana%2C_tapas.jpg",
         "image_alt": "Imagen de unas tapas",
         "text": "Explorar Granada también es un viaje gastronómico a través de sus <strong>tapas</strong>, pequeñas delicias que cuentan historias de tradición y sabor. Cada bar y restaurante ofrece su propia versión, desde el clásico jamón serrano hasta innovaciones culinarias. Disfrutar de las <strong>tapas</strong> en Granada no es solo saborear la cocina local, es vivir una tradición que convierte cada comida en una celebración de la vida y la amistad."
@@ -91,6 +101,7 @@
       {
         "title": "Olla de San Antón",
         "source_url": "https://www.google.com/search?q=Olla%20de%20San%20Ant%C3%B3n&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwjowpKr84OFAxUAAAAAHQAAAAAQAg&biw=1903&bih=894#imgrc=VYX7lHktwyAVHM",
+        "author": "JJ Merelo - Flickr",
         "image_src": "./assets/images/home/gastronomia/368843657_9607447f24_b.jpg",
         "image_alt": "Imagen de un plato de Olla de San Antón",
         "text": "La <strong>Olla de San Antón</strong> es un plato emblemático de Granada, un guiso rico y reconfortante que se saborea especialmente en invierno. Este cocido tradicional, hecho con habas secas, arroz, morcilla, chorizo y otros ingredientes, es una celebración de sabores y texturas. Disfrutar de la <strong>Olla de San Antón</strong> es sumergirse en el corazón de la gastronomía granadina, una experiencia culinaria que une a locales y visitantes en torno al calor de la cocina casera."
@@ -98,6 +109,7 @@
       {
         "title": "Plato Alpujarreño",
         "source_url": "https://www.google.com/search?q=Plato%20Alpujarre%C3%B1o&tbm=isch&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&hl=ca&sa=X&ved=0CAAQ1vwEahcKEwjI6qGp9IOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=Gy0lnnSKEZZarM",
+        "author": "José Manuel - Flickr",
         "image_src": "./assets/images/home/gastronomia/14857675313_95d310e70d_b.jpg",
         "image_alt": "Imagen de un Plato Alpujarreño",
         "text": "El <strong>Plato Alpujarreño</strong>, típico de la región montañosa de las Alpujarras, es una contundente muestra de la gastronomía granadina. Este plato combina sabores rústicos como patatas a lo pobre, chorizo, morcilla, jamón serrano, y huevo frito. Comer un <strong>Plato Alpujarreño</strong> es disfrutar de una experiencia gastronómica que satisface el paladar y reconforta el alma, reflejando la rica herencia culinaria de Granada."
@@ -108,6 +120,7 @@
       {
         "title": "Granada Musulmana (711-1492)",
         "source_url": null,
+        "author": "ChatGPT",
         "image_src": "./assets/images/home/historia/historia1.webp",
         "image_alt": "Imagen artística de Granada Musulmana",
         "text": "La era <strong>musulmana de Granada</strong> (711-1492) dejó una huella indeleble en la ciudad, transformándola en un crisol de culturas. Este periodo se caracteriza por un florecimiento artístico y científico, evidente en joyas arquitectónicas como la Alhambra. Explorar Granada es sumergirse en este rico legado, donde cada calle y edificio cuenta historias de convivencia, innovación y esplendor. La <strong>Granada musulmana</strong> no es solo un capítulo de la historia, es el alma de la ciudad, palpitante y viva."
@@ -115,6 +128,7 @@
       {
         "title": "Granada Renacentista y Barroca (S.XVI-XVIII)",
         "source_url": null,
+        "author": "ChatGPT",
         "image_src": "./assets/images/home/historia/historia2.webp",
         "image_alt": "Imagen artística de Granada Renacentista y Barroca",
         "text": "La <strong>Granada Renacentista y Barroca</strong> (siglos XVI-XVIII) marcó una era de transformación arquitectónica y cultural, donde la ciudad se embelleció con imponentes edificios y arte sacro. Destacan obras como la Catedral de Granada, emblema del Renacimiento español, y el Monasterio de San Jerónimo. Este período refleja un rico diálogo entre pasado y presente, donde la influencia musulmana se entrelaza con nuevas corrientes europeas. Descubrir Granada de esta época es admirar su esplendor artístico y su capacidad de fusión cultural."
@@ -122,6 +136,7 @@
       {
         "title": "Granada Contemporánea (S.XIX-XXI)",
         "source_url": "https://www.google.com/search?q=Plato%20Alpujarre%C3%B1o&tbm=isch&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&hl=ca&sa=X&ved=0CAAQ1vwEahcKEwjI6qGp9IOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=Gy0lnnSKEZZarM",
+        "author": "ChatGPT",
         "image_src": "./assets/images/home/historia/historia3.webp",
         "image_alt": "Imagen artística de Granada Contemporánea",
         "text": "La <strong>Granada Contemporánea</strong> (siglos XIX-XXI) es un testimonio de adaptación y modernidad, manteniendo su esencia histórica mientras abraza el progreso. Este periodo destaca por importantes desarrollos urbanísticos y culturales, reflejados en la renovación del barrio del Realejo, el crecimiento de la Universidad de Granada, y la emergencia de movimientos artísticos modernos. La Granada de hoy es un vibrante mosaico de tradición y modernidad, un lugar donde el pasado y el futuro se encuentran en cada esquina, ofreciendo una experiencia única de riqueza histórica y dinamismo contemporáneo."

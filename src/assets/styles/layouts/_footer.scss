@@ -4,8 +4,75 @@
   MEDIA DESKTOP
 */
 @media screen and (orientation: landscape) and (width >= 1281px) {
-  html{
-    margin: 0;
+  .main-footer{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    min-width: 1200px;
+
+    &__title{
+      margin-top: 0;
+      font-size: 30px;
+    }
+
+    &__contact-block {
+      &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      &__navlinks {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+
+        ul {
+          overflow: hidden;
+          list-style-type: none;
+
+          li {
+            padding: 20px 10px;
+            font-size: 24px;
+            color: $color1-fg;
+          }
+        }
+      }
+    }
+
+    &__copyright-block{
+      background-color: black;
+      border-top: 1px solid $color1-fg;
+
+      .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        p{
+          padding: 12px 0;
+          font-size: 18px;
+          color: $color1-fg;
+        }
+      }
+    }
+  }
+
+  footer::before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    min-width: 1200px;
+    height: 100%;
+    content:"";
+
+    /* https://www.rawpixel.com/image/843189/french-lilies-tile-pattern */
+    background-image: url("../images/bg-footer.webp");
+    filter: grayscale(100%) brightness(0.2);
   }
 }
 
@@ -13,86 +80,73 @@
 /*
   MEDIA MOBILE
 */
-@media (orientation: portrait) or (width > 1280px) {
-  html{
-    margin: 0;
-  }
-}
+@media (orientation: portrait) or (width < 1280px) {
+  .main-footer{
+    position: relative;
+    z-index: 1;
+    width: 100%;
 
+    &__title{
+      margin-top: 0;
+      font-size: 30px;
+    }
 
-footer{
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  min-width: 1200px;
-
-  h4{
-    margin-top: 0;
-  }
-
-  #contact {
-    .container {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-
-      .form {
-        width: 50%;
-        min-width: 600px;
+    &__contact-block {
+      &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
       }
 
-      nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        float: right;
-        width: 50%;
+      &__navlinks {
+        width: 100%;
 
         ul {
           overflow: hidden;
           list-style-type: none;
 
           li {
-            padding: 0 10px;
-            font-size: 24px;
+            padding: 5px 10px;
+            font-size: 16px;
             color: $color1-fg;
           }
         }
       }
     }
-  }
 
-  #copyright{
-    background-color: black;
-    border-top: 1px solid $color1-fg;
+    &__copyright-block{
+      background-color: black;
+      border-top: 1px solid $color1-fg;
 
-    .container{
-      display: flex;
-      flex-direction: row;
+      .container{
+        display: flex;
+        flex-direction: column;
         align-items: center;
-      justify-content: space-between;
+        justify-content: space-between;
 
-      p{
-        padding: 12px 0;
-        font-size: 18px;
-        color: $color1-fg;
+        p{
+          padding: 5px 0;
+          font-size: 14px;
+          color: $color1-fg;
+        }
       }
     }
   }
+
+  footer::before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    min-width: 1200px;
+    height: 100%;
+    content:"";
+
+    /* https://www.rawpixel.com/image/843189/french-lilies-tile-pattern */
+    background-image: url("../images/bg-footer.webp");
+    filter: grayscale(100%) brightness(0.2);
+  }
 }
 
-footer::before{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-  width: 100%;
-  min-width: 1200px;
-  height: 100%;
-  content:"";
-
-  /* https://www.rawpixel.com/image/843189/french-lilies-tile-pattern */
-  background-image: url("../images/bg-footer.webp");
-  filter: grayscale(100%) brightness(0.2);
-}
 

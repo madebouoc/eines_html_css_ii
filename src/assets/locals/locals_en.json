@@ -1,6 +1,137 @@
 {
   "english": {
-    "helloworld": "Hello world!",
-    "bye": "bye!"
+    "lang_html_code": "en",
+    "header": {
+      "web_title": "City of Granada",
+      "web_subtitle": "Tourist information about Granada. Unofficial website."
+    },
+    "intro_list": [
+      {
+        "text": "Discover Granada, the jewel of Andalusia, where the past meets the present in an eternal embrace. At the heart of this ancient city, the Alhambra stands majestically, a dream palace where every wall tells stories of kings and conquests. But Granada is more than its imposing fortress; it's a melting pot of cultures where the Arab baths invite you to dive into the deepest relaxation, a rejuvenating experience that connects body and mind with centuries of history."
+      },
+      {
+        "text": "There is no more moving spectacle than the Holy Week processions, a living testimony of faith and tradition pulsating in every corner. And for the traveler seeking authentic flavors, the Olla de San Antón offers a feast for the senses, a traditional dish that encapsulates the soul of Granada in every bite."
+      },
+      {
+        "text": "Come to Granada, where every step is a discovery, every view a poem, and every moment an indelible memory."
+      }
+    ],
+    "lugares_de_interes": "Places of interest",
+    "lugares_list": [
+      {
+        "title": "The Alhambra",
+        "source_url": "https://www.google.com/search?q=La%20Alhambra&tbm=isch&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&hl=ca&sa=X&ved=0CAAQ1vwEahcKEwiA3e70k4OFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=CM3FPGEHnjUzwM",
+        "image_src": "./assets/images/home/lugares/la_alhambra.jpg",
+        "image_alt": "Image of The Alhambra",
+        "text": "Discover the <strong>Alhambra</strong>, the jewel of Granada, where palaces, gardens, and fortresses merge into a testament to Muslim splendor. This iconic site, with its detailed mosaics and courtyards that evoke dreams of ancient dynasties, not only captures the imagination; it enchants the soul. Visiting the <strong>Alhambra</strong> is like entering a fairy tale, where every corner tells stories of love, intrigue, and power."
+      },
+      {
+        "title": "Paseo de los Tristes / Carrera del Darro",
+        "source_url": "https://www.google.com/search?q=Paseo%20de%20los%20Tristes&tbm=isch&hl=ca&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&sa=X&ved=0CAAQ1vwEahcKEwjwtLeQlIOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=jFFgcJKOK3dU2M",
+        "image_src": "./assets/images/home/lugares/paseo_de_los_tristes.jpg",
+        "image_alt": "Image of Paseo de los Tristes",
+        "text": "The <strong>Paseo de los Tristes</strong> and the <strong>Carrera del Darro</strong>, with their timeless charm, envelop you in the magic of Granada. This path, flanked by the Darro river and the view of the Alhambra, is dotted with living history and architectural beauty. A place where each step takes you through centuries of stories and legends, perfect for an unforgettable walk at sunset."
+      },
+      {
+        "title": "Mirador de San Nicolás",
+        "source_url": "https://www.google.com/search?q=Mirador%20de%20San%20Nicol%C3%A1s&tbm=isch&hl=ca&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&sa=X&ved=0CAAQ1vwEahcKEwjYjKTvlIOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=YKHcec_eg5fxkM",
+        "image_src": "./assets/images/home/lugares/mirador_de_san_nicolas.jpg",
+        "image_alt": "Image of Mirador de San Nicolás",
+        "text": "The <strong>Mirador de San Nicolás</strong> offers the most spectacular view of the Alhambra, with the Sierra Nevada as a backdrop. Here, the sunset bathes the city in gold, while the melodies of local musicians float in the air, capturing the essence of Granada in a single moment. A place where history and beauty intertwine, inviting you to dream."
+      },
+      {
+        "title": "Arab Baths (Hammam Al Ándalus)",
+        "source_url": "https://www.google.com/search?q=Hammam%20Al%20%C3%81ndalus&tbm=isch&hl=ca&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&sa=X&ved=0CAAQ1vwEahcKEwigvrGolYOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=39uWRpnIa3-6KM",
+        "image_src": "./assets/images/home/lugares/banyos_arabes.jpg",
+        "image_alt": "Image of Arab Baths",
+        "text": "In Granada's <strong>Arab Baths Hammam Al Ándalus</strong>, rediscover the ancient art of rest. Between walls echoing with the past, water flows as a source of rejuvenation. This sanctuary, inspired by Moorish tradition, invites you to immerse yourself in a sensory journey, where time stops, and wellbeing begins."
+      },
+      {
+        "title": "Cathedral of Granada",
+        "source_url": "https://www.google.com/search?q=Catedral%20de%20Granada&tbm=isch&tbs=il:cl&hl=ca&sa=X&ved=0CAAQ1vwEahcKEwjgz6falYOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=-vNrm0YedVmjLM",
+        "image_src": "./assets/images/home/lugares/catedral_de_granada.jpg",
+        "image_alt": "Image of the Cathedral of Granada",
+        "text": "The <strong>Cathedral of Granada</strong>, an imposing witness to history, stands majestically in the city's heart. This magnificent example of Renaissance architecture invites you to explore its interior, where art and spirituality unite beneath vaults that seem to touch the sky. Visiting the <strong>Cathedral</strong> is entering a refuge of peace and beauty, a place where every detail narrates centuries of devotion and art."
+      },
+      {
+        "title": "Alcaicería",
+        "source_url": "https://www.google.com/search?q=Alcaicer%C3%ADa&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwjoso2GloOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=S0yvUQupVXy7yM",
+        "image_src": "./assets/images/home/lugares/alcaiceria.jpg",
+        "image_alt": "Image of the Alcaicería",
+        "text": "The <strong>Alcaicería</strong>, Granada's ancient silk market, transports you to a labyrinth of vibrant alleyways brimming with colorful fabrics, handicrafts, and exotic spices. This traditional bazaar, with its atmosphere reminiscent of a flourishing commercial past, offers a unique experience where the senses are sharpened. Walking through the <strong>Alcaicería</strong> is immersing yourself in the essence of Granada, an encounter with history and culture at every corner."
+      }
+    ],
+    "eventos_y_festividades": "Events and festivities",
+    "eventos_list": [
+      {
+        "title": "Holy Week in Granada",
+        "source_url": "https://www.google.com/search?q=procesiones+en+Granada&tbm=isch&ved=2ahUKEwiA5peg7YOFAxU-lScCHSDZD0gQ2-cCegQIABAA&oq=procesiones+en+Granada&gs_lp=EgNpbWciFnByb2Nlc2lvbmVzIGVuIEdyYW5hZGEyBxAAGIAEGBgyBxAAGIAEGBdyBxAAGIAEGBhI8kJQgzdY6z9wAHgAkAEAmAFvoAHPCaoBAzMuObgBA8gBAPgBAYoCC2d3cy13aXotaW1nwgIHEAAYgAQYE8ICBhAAGAcYHsICCBAAGAUYBxgewgIIEAAYCBgHGB6IBgE&sclient=img&ei=Ul77ZYD1PL6qnsEPoLK_wAQ&bih=911&biw=1903&hl=ca#imgrc=Ldqjw86lI8JifM",
+        "image_src": "./assets/images/home/eventos/procesiones_semana_santa.jpg",
+        "image_alt": "Image of Holy Week in Granada",
+        "text": "Holy Week in Granada transforms the city into a stage of devotion and art. The streets fill with majestic processions that, to the rhythm of drums and saetas, narrate the passion and resurrection. This event, deeply rooted in Granada's tradition, offers an incomparable spiritual and cultural experience. Experiencing Holy Week here is witnessing a unique blend of faith, art, and culture, a spectacle that leaves a mark on the soul."
+      },
+      {
+        "title": "International Music Festival of Granada",
+        "source_url": "https://www.google.com/search?q=Festival%20de%20M%C3%BAsica%20granada&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwiowduK74OFAxUAAAAAHQAAAAAQAg&biw=1903&bih=894#imgrc=usdFCklbiYw-GM",
+        "image_src": "./assets/images/home/eventos/festival_int_de_music_danza.jpg",
+        "image_alt": "Image of the International Music Festival of Granada",
+        "text": "The International Music and Dance Festival of Granada is a celebration of art that resonates in the city's historic corners. This event attracts world-class artists, offering a rich program ranging from classical music to flamenco. Participating in the festival is to experience Granada's culture at its highest expression, an unforgettable artistic connection in Granada's magical setting."
+      },
+      {
+        "title": "Corpus Christi Fair",
+        "source_url": "https://www.google.com/search?q=Feria%20del%20Corpus%20Christi&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahgKEwjw9aqB8IOFAxUAAAAAHQAAAAAQ5wE&biw=1903&bih=911#imgrc=JfJe6qpi7p0-5M",
+        "image_src": "./assets/images/home/eventos/feria_corpus_christi.jpg",
+        "image_alt": "Image of the Corpus Christi Fair",
+        "text": "The Corpus Christi Fair is Granada's major festival, a display of joy, color, and tradition. For one week, the city is adorned with lights and flowers to celebrate with processions, booths, and dances. It's a time of gathering, where devotion meets popular celebration, offering both locals and visitors a unique experience of Granadan culture."
+      }
+    ],
+    "gastronomia": "Gastronomy",
+    "gastronomia_list": [
+      {
+        "title": "Tapas",
+        "source_url": "https://www.google.com/search?q=tapas%20en%20Granada&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwjw7tfO8oOFAxUAAAAAHQAAAAAQBw&biw=1903&bih=911#imgrc=27dDlLEuLYEFjM",
+        "image_src": "./assets/images/home/gastronomia/Granada%2C_La_Fontana%2C_tapas.jpg",
+        "image_alt": "Image of tapas",
+        "text": "Exploring Granada is also a gastronomic journey through its tapas, small delicacies that tell stories of tradition and flavor. Each bar and restaurant offers its own version, from classic serrano ham to culinary innovations. Enjoying tapas in Granada is not just tasting local cuisine, it's living a tradition that turns every meal into a celebration of life and friendship."
+      },
+      {
+        "title": "Olla de San Antón",
+        "source_url": "https://www.google.com/search?q=Olla%20de%20San%20Ant%C3%B3n&tbm=isch&hl=ca&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwjowpKr84OFAxUAAAAAHQAAAAAQAg&biw=1903&bih=894#imgrc=VYX7lHktwyAVHM",
+        "image_src": "./assets/images/home/gastronomia/368843657_9607447f24_b.jpg",
+        "image_alt": "Image of Olla de San Antón",
+        "text": "The Olla de San Antón is an emblematic dish of Granada, a rich and comforting stew savored especially in winter. This traditional stew, made with dried beans, rice, blood sausage, chorizo, and other ingredients, is a celebration of flavors and textures. Enjoying the Olla de San Antón is immersing yourself in the heart of Granadan cuisine, a culinary experience that brings locals and visitors together around the warmth of home cooking."
+      },
+      {
+        "title": "Plato Alpujarreño",
+        "source_url": "https://www.google.com/search?q=Plato%20Alpujarre%C3%B1o&tbm=isch&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&hl=ca&sa=X&ved=0CAAQ1vwEahcKEwjI6qGp9IOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=Gy0lnnSKEZZarM",
+        "image_src": "./assets/images/home/gastronomia/14857675313_95d310e70d_b.jpg",
+        "image_alt": "Image of Plato Alpujarreño",
+        "text": "The Plato Alpujarreño, typical of the mountainous region of the Alpujarras, is a robust showcase of Granadan cuisine. This dish combines rustic flavors such as poor man's potatoes, chorizo, blood sausage, serrano ham, and fried egg. Eating a Plato Alpujarreño is to enjoy a gastronomic experience that satisfies the palate and comforts the soul, reflecting the rich culinary heritage of Granada."
+      }
+    ],
+    "historia": "History",
+    "historia_list": [
+      {
+        "title": "Muslim Granada (711-1492)",
+        "source_url": null,
+        "image_src": "./assets/images/home/historia/historia1.webp",
+        "image_alt": "Artistic image of Muslim Granada",
+        "text": "The Muslim era of Granada (711-1492) left an indelible mark on the city, transforming it into a melting pot of cultures. This period is characterized by an artistic and scientific flourishing, evident in architectural jewels like the Alhambra. Exploring Granada is to immerse yourself in this rich legacy, where every street and building tells stories of coexistence, innovation, and splendor. Muslim Granada is not just a chapter of history; it's the soul of the city, pulsating and alive."
+      },
+      {
+        "title": "Renaissance and Baroque Granada (16th-18th Centuries)",
+        "source_url": null,
+        "image_src": "./assets/images/home/historia/historia2.webp",
+        "image_alt": "Artistic image of Renaissance and Baroque Granada",
+        "text": "Renaissance and Baroque Granada (16th-18th centuries) marked an era of architectural and cultural transformation, where the city was embellished with imposing buildings and sacred art. Highlights include the Cathedral of Granada, an emblem of Spanish Renaissance, and the Monastery of San Jerónimo. This period reflects a rich dialogue between past and present, where Muslim influence intertwines with new European currents. Discovering Granada from this era is to admire its artistic splendor and its capacity for cultural fusion."
+      },
+      {
+        "title": "Contemporary Granada (19th-21st Centuries)",
+        "source_url": "https://www.google.com/search?q=Plato%20Alpujarre%C3%B1o&tbm=isch&tbs=il:cl&prmd=ivnbz&rlz=1C1ONGR_esES995ES995&hl=ca&sa=X&ved=0CAAQ1vwEahcKEwjI6qGp9IOFAxUAAAAAHQAAAAAQAg&biw=1903&bih=911#imgrc=Gy0lnnSKEZZarM",
+        "image_src": "./assets/images/home/historia/historia3.webp",
+        "image_alt": "Artistic image of Contemporary Granada",
+        "text": "Contemporary Granada (19th-21st centuries) is a testament to adaptation and modernity, maintaining its historical essence while embracing progress. This period is marked by significant urban and cultural developments, reflected in the renewal of the Realejo neighborhood, the growth of the University of Granada, and the emergence of modern artistic movements. Today's Granada is a vibrant mosaic of tradition and modernity, a place where the past and the future meet at every corner, offering a unique experience of historical richness and contemporary dynamism."
+      }
+    ]
   }
 }
