@@ -1,4 +1,4 @@
-.pre-header{
+.pre-header, .main-header{
   &__navbar__menu-item__link{
     color: $color1-fg;
     text-decoration: none;
@@ -10,17 +10,7 @@
   }
 }
 
-.main-header {
-  &__menu-item {
-    color: $color1-fg;
-    text-decoration: none;
-
-    &:hover {
-      color: $color1-fg;
-      filter: brightness(200%);
-    }
-  }
-
+.main-header{
   &__main-title {
     color: $color1-fg;
     text-decoration: none;
