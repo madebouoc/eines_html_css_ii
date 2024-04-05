@@ -1,75 +1,47 @@
-
-
-/*
-  MEDIA DESKTOP
-*/
-@media screen and (orientation: landscape) and (width >= 1281px) {
-  html{
-    margin: 0;
-  }
-}
-
-
-/*
-  MEDIA MOBILE
-*/
-@media (orientation: portrait) or (width > 1280px) {
-  html{
-    margin: 0;
-  }
-}
-
-
-
-
-  .pre-header {
+ .pre-header {
     position: relative;
     z-index: 1000;
     min-width: 1200px;
     background-color: $color1-bg;
     border-bottom: 1px solid $color1-fg;
 
-    .container {
+    &__container {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       height: 40px;
+    }
 
-      span {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        color: $color1-fg;
+    &__pre-title{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: $color1-fg;
+    }
+
+    &__navbar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      float: right;
+
+      &__item-list{
+        height: 100%;
+        list-style-type: none;
       }
 
-      nav {
+      &__menu-item{
         display: flex;
         align-items: center;
         justify-content: center;
-        float: right;
-
-        ul {
-          height: 100%;
-          list-style-type: none;
-
-            li {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            float: left;
-            height: 100%;
-            padding: 0 20px;
-            margin-left: -1px; /* para que no se vea border doble */
-            font-size: 16px;
-            color: $color1-fg;
-            border: 1px solid $color1-fg;
-            border-bottom: 0;
-
-            span > a{
-              margin-left: 10px;
-            }
-          }
-        }
+        float: left;
+        height: 100%;
+        padding: 0 20px;
+        margin-left: -1px; /* para que no se vea border doble */
+        font-size: 16px;
+        color: $color1-fg;
+        border: 1px solid $color1-fg;
+        border-bottom: 0;
       }
     }
   }
@@ -81,61 +53,67 @@
     min-width: 1200px;
     border-bottom: 1px solid $color1-fg;
 
-    .container {
+    &__container {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       height: 80px;
+    }
 
-      span{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    &__main-title-position{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+    }
+
+    &__main-title{
+      font-size: 36px;
+      color: $title;
+    }
+
+    &__navbar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &__item-list{
         height: 100%;
+        overflow: hidden;
+        list-style-type: none;
 
-        h1 {
-          font-size: 36px;
-          color: $title;
-        }
       }
 
-      nav {
+      &__menu-item{
         display: flex;
         align-items: center;
         justify-content: center;
-
-        ul {
-          height: 100%;
-          overflow: hidden;
-          list-style-type: none;
-
-          li {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            float: left;
-            height: 100%;
-            padding: 0 20px;
-            font-size: 20px;
-            color: $color1-fg;
-          }
-        }
+        float: left;
+        height: 100%;
+        padding: 0 20px;
+        font-size: 20px;
+        color: $color1-fg;
       }
     }
+
   }
 
-  #main-header::before, #main-header::after{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    content:"";
-    background: linear-gradient(rgba(0 0 0 / 100%), rgba(0 0 0 / 0%));
-    transition: background 0.5s ease;
-  }
 
-  #main-header.is-pinned::before, #main-header.is-pinned::after{
-    background-color: rgba(0 0 0 / 50%) !important;
-  }
+ /*
+   MEDIA DESKTOP
+ */
+ @media screen and (orientation: landscape) and (width >= 1281px) {
+   html{
+     margin: 0;
+   }
+ }
+
+
+ /*
+   MEDIA MOBILE
+ */
+ @media (orientation: portrait) or (width > 1280px) {
+   html{
+     margin: 0;
+   }
+ }

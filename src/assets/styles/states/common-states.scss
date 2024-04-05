@@ -1,3 +1,4 @@
-html{
-  border: 0;
+.main-header.is-pinned::before, .main-header.is-pinned::after{
+  background-color: rgba(0 0 0 / 50%) !important;
 }
+

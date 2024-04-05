@@ -15,7 +15,7 @@ module.exports = {
       "locals": {
         ...spanishLiterals,
         ...catalanLiterals,
-        ...englishLiterals
+        ...englishLiterals,
       }
     }
   }

@@ -1,8 +1,8 @@
 {
-  "name": "uoc-boilerplate",
-  "version": "3.8.0",
+  "name": "ciudad-de-granada",
+  "version": "1.0.0",
   "private": true,
-  "description": "Boilerplate for Advanced HTML/CSS Tools UOC students",
+  "description": "Herramientas HTML y CSS II - Sitio web 'Ciudad de Granada'",
   "scripts": {
     "parcel:serve": "parcel src/index.html -p 8123 --target web --open",
     "parcel:build": "parcel build src/index.html --target web --no-source-maps --no-cache",
@@ -27,8 +27,8 @@
     "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
   },
   "author": {
-    "name": "Jordi Tarrida",
-    "email": "jorditarrida@uoc.edu"
+    "name": "Marc Delgado Bonet",
+    "email": "madebo@uoc.edu"
   },
   "license": "MIT",
   "bugs": {
@@ -44,7 +44,7 @@
     "posthtml-expressions": "^1.11.3",
     "posthtml-include": "^1.7.4",
     "rimraf": "^5.0.1",
-    "sharp": "^0.31.1",
+    "sharp": "0.33.3",
     "stylelint": "^16.2.1",
     "stylelint-config-recess-order": "^5.0.0",
     "stylelint-config-recommended-scss": "^14.0.0",
@@ -53,6 +53,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
+    "bem-join": "^2.0.2",
     "swiper": "^11.0.7"
   }
 }

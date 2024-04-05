@@ -5,6 +5,11 @@
 /* Variables de SCSS */
 @import "variables";
 
+
+/* Estilos y fuentes externas */
+@import "variables";
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+
 /*
    Distribución de atributos según esquema SMACSS
    https://smacss.com/book/categorizing/
